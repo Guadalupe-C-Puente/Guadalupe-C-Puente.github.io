@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="shortcut icon"
+    href="https://cdn-icons-png.flaticon.com/512/186/186373.png"
+    type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesCSS.html/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Victoria Robertson </title>
+    </head>
+
+    <div class="dropdown btn-centrado">
+    <div> <button id="myBtn" class="dropbtn">NAVEGACIÓN </button> </div>
+    <div id="NAV" class="dropdown-content padding">
+      <a href="#experiencia">Experiencia</a>
+      <a href="#contáctame">Contáctame</a>
+      <a href="./index.html">Volver</a>
+      </div>
+    </div>
+<body>
+<header>
+  <div class= "centrado"><img class="img-fluid" src="https://i.pinimg.com/564x/07/fd/df/07fddf59a863de369c04f3b73bb33733.jpg" alt="Imagen de mujer de CV" id="imagen-CV">
+  </div>
+  <div class="contenedor-título">
+  <h1> Victoria Robertson  ~  Desarrolladora Web </h1>
+  </div>
+  <div class="centrado"><button onclick="getElementById('demo').innerHTML=Date()">HOLAA</button>
+  </div>
+  <div class="centrado">
+  <p id="demo"></p>
+  </div>
+</header>
+<div class="Datos">
+<div class="between">
+<div><h2 class="text-center"><i class="fa-sharp fa-solid fa-user"></i> Datos Personales</h2>
+<p> ◙ Fecha de Nacimiento: 26/04/1994 </p>
+<p> ◙ Nacionalidad: Argentina</p>
+<p> ◙ Residencia: Tucumán, Argentina</p>
+</div>
+
+<div id="experiencia"><h2 class="text-center"><i class="fa-sharp fa-solid fa-briefcase"></i> Experiencia</h2>
+<p> ◙ Desarrolladora web Junior en <br/> Diseños Arg. Srl - 2022 - Actualidad </p>
+<p> ◙ Desarrollo de landing pages comerciales </p>
+<p> ◙ Asistente área comercial y Marketing </p>
+</div>
+</div>
+
+<div class="between">
+<div ><h2 class="text-center"><i class="fa-sharp fa-solid fa-screwdriver-wrench"></i> Habilidades</h2>
+<p> ◙ Organización </p>
+<p> ◙ Puntualidad </p>
+<p> ◙ Trabajo en Equipo </p>
+<p> ◙ Creatividad </p>
+</div> 
+            
+<div><h2 class="text-center"><i class="fa-sharp fa-solid fa-graduation-cap"></i> Educación</h2> 
+  
+ <p> ◙ Colegio Las Marías. <br/>  Bachiller Comunicación Artes y Diseño. 2011 </p>
+ <p> ◙ UNT. Diseño Gráfico. 2012-2017 </p>
+ <p> ◙ Introducción a la Programación UNT 2017 </p>
+ <p> ◙ Ticmas - Desarrollo Front-End </p>
+
+ </div>
+ </div>
+ <div class="between">
+ <div><h2 class="text-center"><i class="fa-sharp fa-solid fa-file-contract"></i> Cursos</h2>
+ <p>◙ Desarrollo web:  <br/> 
+  <button onclick="window.open('./img/1.jpg')"  
+   id="Boton-Certificado-2">Mostrar Certificado</button>
+   </p>
+    
+   <p>◙ Google Analytics:  <br/> 
+   <button onclick="window.open('./img/2.jpg')"  
+   id="Boton-Certificado-2">Mostrar Certificado</button>
+   </p>
+   <p>◙ Google - Marketing Digital: <br/> 
+   <button onclick="window.open('./img/3.jpg')"  
+   id="Boton-Certificado-2">Mostrar Certificado</button>
+   </p>
+  </div>
+  
+  <div><h2 class="text-center"><i class="fa-sharp fa-solid fa-address-book"></i> Contáctame</h2> 
+
+  <p> ◙ TEL: 3816268741 </p>
+  <p> ◙ E-MAIL:victoria.robertson@gmail.com.ar </p>
+  <p> ◙ FACEBOOK: <a href="https://www.facebook.com/" target="_blank"> Visitá mi Face </a> </p>
+  <p> ◙ INSTAGRAM: <a href="https://www.instagram.com/" target="_blank"> Visitá mi IG </a> </p>   
+  </div>
+  </div>
+<footer>
+<div class="centrado" id="contáctame" >
+<button id="Contactar" onclick="MostrarTelefono()">HASTA PRONTO</button>
+</div>
+<div class="centrado" ><p id="telefono"></p></div>
+
+</footer>
+</body>
+<!--Boton Nav-->
+<script>
+  document.getElementById("myBtn").onclick = function() {myFunction()};
+  function myFunction() {
+  document.getElementById("NAV").classList.toggle("show");
+ }
+</script>
+
+<!--boton hasta luego --> 
+<script>
+  function MostrarTelefono(){
+  document.getElementById("telefono").innerHTML = " ¡Trabajemos juntos y creemos algo único! ";
+  }
+  </script>
+<!--font awesome-->
+<script src="https://kit.fontawesome.com/a2f27b45d8.js" crossorigin="anonymous"></script>
+</html>
+

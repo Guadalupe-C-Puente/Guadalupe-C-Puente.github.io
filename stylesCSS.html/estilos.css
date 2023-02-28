@@ -1,0 +1,128 @@
+body{
+background-image: url("https://us.123rf.com/450wm/molaruso/molaruso1506/molaruso150600054/41794040-resumen-borroso-pastel-de-fondo-degradado-de-color-para-los-conceptos-de-dise%C3%B1o-web-presentaciones.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    border: 5px dashed cornflowerblue;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: rgb(49, 49, 206);
+}
+
+.dropbtn {
+    background-color: #6198eb;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #d68bcc;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .show {display:block;
+}
+
+.flex-end{
+    display: flex;
+    justify-content:flex-end;
+}
+.contenedor-título{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-perfil{
+border-radius: 60%;
+width: 250px;
+height: 267px;
+}
+
+.img-fluid {
+    width: 250px;
+    height: 267px;
+    border-radius: 60%;
+  }
+
+.d-grid{
+    display:grid;
+
+}
+.grid-template-columns{
+    grid-template-columns: auto auto;
+}
+.container-fluid{
+    width: 100%;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.between{
+    display: flex;
+    justify-content:space-around;
+}
+@media (max-width: 768px) {
+    .between{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+ }
+ 
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    border-radius: 0%;
+  }
+ .btn-centrado{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+}
+.text-center{
+    text-align: center;
+}
+
